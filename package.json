@@ -1,0 +1,23 @@
+{
+  "name": "webpack-zh",
+  "version": "1.0.0",
+  "description": "predictable long term cache problem",
+  "main": "index.js",
+  "author": "lynweklm@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/runtime": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "scripts": {
+    "build": "rimraf dist && webpack --mode=production"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
